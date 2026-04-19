@@ -107,8 +107,9 @@ int main()
 	
 	while (completeCalculations) {
 		cout << "\n========== Calculator ==========\n";
-		cout << "|(r) Reset| |(l) Last Result|\n--------------------------------\n (+) Add, (-) Subatraction\n (*) Multiplication, (/) Devision\n (1) Squar Root, (2) Power\n (a) Absolute\n (s) Sine, (c) Cosine, (t) Tangent\n (%) Modulus, (n) Logarithem Base 10" << endl;
-        cout << " Choice: ";
+		cout << " |(r) Reset| |(l) Last Result|\n--------------------------------\n (+) Add, (-) Subatraction\n (*) Multiplication, (/) Devision\n (1) Squar Root, (2) Power\n (a) Absolute\n (s) Sine, (c) Cosine, (t) Tangent\n (%) Modulus, (n) Logarithem Base 10" << endl;
+        cout << " Last Result: " << lastResult << endl;
+		cout << " Choice: ";
         cin >> operators;
 		
 		if (operators == 'r') {
@@ -131,8 +132,8 @@ int main()
 		}
 		
 		cout << calculate(number1, number2, operators) << endl;
-
 		lastResult = calculate(number1, number2, operators);
+
 		
 		//Decision to Complete 
 		cout << "Complete Calulations:(Y,N) ";
