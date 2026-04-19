@@ -1,0 +1,4 @@
+﻿  Calculator.cpp
+C:\Users\ASUS\source\repos\Calculator\Calculator\Calculator.cpp(80,35): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\ASUS\source\repos\Calculator\Calculator\Calculator.cpp(80,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Calculator.vcxproj -> C:\Users\ASUS\source\repos\Calculator\x64\Debug\Calculator.exe
